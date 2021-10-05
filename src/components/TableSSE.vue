@@ -2,12 +2,7 @@
   <h1>hola</h1>
 </template>
 
-<script lang="ts">
-
-import { SSEClient } from 'vue-sse/types'
-
-let client: SSEClient | null
-
+<script>
 export default {
     name: 'TableSSE',
     data () {
