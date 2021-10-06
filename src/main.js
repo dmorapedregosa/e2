@@ -3,9 +3,8 @@ import App from './App.vue'
 import VueSSE from 'vue-sse'
 
 Vue.use(VueSSE, {
-  format: 'json',
-  polyfill: true
-})
+  polyfill: true,
+});
 
 Vue.config.productionTip = false
 

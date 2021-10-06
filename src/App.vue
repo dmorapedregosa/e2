@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <TableSSE />
+    <SSE />
   </div>
 </template>
 
 <script>
-import TableSSE from './components/TableSSE.vue'
+import SSE from './components/SSE.vue'
 
 export default {
   name: 'App',
   components: {
-    TableSSE
+    SSE
   }
 }
 </script>
